@@ -24306,3 +24306,19 @@ article {
 ._margin {
   margin: 10px;
 }
+
+button:hover {
+  background-color: pink;
+}
+
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: repeat(4, max-content);
+  
+  padding: 10px;
+}
+.grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
