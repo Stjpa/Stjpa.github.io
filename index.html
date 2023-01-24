@@ -11,13 +11,11 @@
 
     <script type="text/javascript">
         var userLanguage = navigator.language || navigator.userLanguage;
-        // if(userLanguage === 'de') {
-        //     window.location.replace('/de/aboutme.html');
-        // } else {
-        //     window.location.replace('/en/aboutme.html');
-        // }
-
-        window.location.replace('/de/aboutme.html');
+        if(userLanguage === 'de') {
+            window.location.replace('/de/uebermich.html');
+        } else {
+            window.location.replace('/en/aboutme.html');
+        }
     </script>
 </head>
 <body>
